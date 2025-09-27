@@ -33,32 +33,22 @@ Omogućuje sigurno upravljanje kontaktima kroz login sustav i intuitivno sučelj
 
 ## 🚀 Pokretanje
 
+### Login podaci:
+- **Username:** admin
+- **Password:** 123
 
-🔐 Login sustav (iz fleet managera)
-✅ Lista korisnika s username/password
+## 📊 Struktura podataka
 
-✅ Funkcija login() s ograničenjem na 3 pokušaja
+### Kontakt
+- ID, ime, prezime, telefon, email
 
-✅ Provjera prije pristupa glavnom meniju
+### Firma  
+- ID, naziv, OIB, lista kontakata
 
-✅ Profesionalan UX s čišćenjem ekrana
+## 🛠️ Tehnologije
+- Python 3.x
+- Regex za email validaciju
+- OS modul za cross-platform kompatibilnost
 
-📊 Struktura podataka (prema zahtjevima)
-✅ Kontakt model: id, name, surname, phone, email
-
-✅ Firma model: id, name, vat_id, contacts (lista ID-ova)
-
-✅ Pravilne veze između firmi i kontakata
-
-⚙️ Kompletne funkcionalnosti
-✅ Prikaz svih kontakata (tablični format)
-
-✅ Prikaz kontakata po firmi
-
-✅ Dodavanje firme/kontakta s validacijom
-
-✅ Ažuriranje firme/kontakta
-
-✅ Email format validacija
-
-✅ Jedinstveni OIB provjera
+---
+*Razvio: Ivo Cetinic | Algebra Python Developer tečaj
